@@ -8,6 +8,9 @@
         [class.active]="player === selectedPlayer">
         {{player.name}}
         <span class="label label-warning pull-right">{{player.power.yellow}}</span>
+        <span class="label label-danger pull-right">{{player.power.red}}</span>
+        <span class="label label-primary pull-right">{{player.power.blue}}</span>
+        <span class="label label-success pull-right">{{player.power.green}}</span>
       </li>
     </ul>
     <button class="btn btn-warning" (click)="createNewPlayer()">New</button>
