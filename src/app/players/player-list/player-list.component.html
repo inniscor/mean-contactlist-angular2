@@ -6,8 +6,8 @@
         *ngFor="let player of players"
         (click)="selectPlayer(player)"
         [class.active]="player === selectedPlayer">
-        {{player.name}} 
-        <span class="badge badge-warning">{{player.power.yellow}}</span>
+        {{player.name}}
+        <span class="label label-warning pull-right">{{player.power.yellow}}</span>
       </li>
     </ul>
     <button class="btn btn-warning" (click)="createNewPlayer()">New</button>
