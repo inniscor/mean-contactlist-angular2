@@ -1,6 +1,6 @@
 {
-  "name": "MEAN Contact List",
-  "description": "Example contact list app using MEAN",
+  "name": "MEAN SpyNet",
+  "description": "Example SpyNet app using MEAN",
   "keywords": [
     "MEAN",
     "Angular",
@@ -8,7 +8,6 @@
     "MongoDB",
     "mLab"
   ],
-  "repository": "https://github.com/chrisckchang/mean-contactlist-angular2",
   "success_url": "/",
   "formation": {
     "web": {
